@@ -1,0 +1,63 @@
+<!-- Registrazione. -->
+<client>
+	<nome>  </nome>
+	<cognome>  </cognome>
+	<nomeUtente>   </nomeUtente>
+	<password> </password>
+	<email>  </email>
+	<tipo>  </tipo>    <!-- tipo -> tipo di account (studente, professore) -->
+</client>
+<server>
+	<messaggio> </messaggio>
+</server>
+<!--
+In base al contenuto del messaggio sappiamo se la registrazione è andata a buon fine
+ok -> registrazione avvenuta
+nome utente già in uso -> il nome utente già in uso
+email già in uso -> email già in uso
+-->
+
+<!-- Login. -->
+<client>
+	<nomeUtente>   </nomeUtente>
+	<password> </password>
+</client>
+<server>
+	<messaggio> </messaggio>
+</server>
+<!--
+In base al contenuto del messaggio sappiamo se il login è andato a buon fine
+ok -> login avvenuta
+errore -> login errato
+-->
+
+
+<!-- Modifica. -->
+<client>
+	<nome>  </nome>
+	<cognome>  </cognome>
+	<nomeUtente>   </nomeUtente>
+	<password> </password>
+	<email>  </email>
+	<tipo>  </tipo>
+</client>
+<server>
+	<messaggio> </messaggio>
+</server>
+<!--
+In base al contenuto del messaggio sappiamo se la modifica è andata a buon fine
+ok -> registrazione avvenuta
+nome utente già in uso -> il nome utente già in uso
+email già in uso -> email già in uso
+errore -> altri errori
+-->
+
+<!-- Disconnesione. -->
+<client>
+	<messaggio> FINE </messaggio>
+</client>
+<server>
+	<messaggio> FINE </messaggio>
+</server>
+
+
