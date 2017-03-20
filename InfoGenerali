@@ -1,0 +1,12 @@
+Web service da implementare:
+connetti - naccari
+disconnetti - botti
+registra studente - giada
+registra professore - giulia 
+modifica profilo / ottieni informazioni dando username e password - nocito
+
+Note:
+password criptata
+ma se io devo inserire gli indirizzi e utilizzo un elenco e non lascio scrivere all'utente
+la chiave viene modifica nel momento in cui si effettua la disconnessione, in modo che quella utilizzata non sia più valida per le sessioni successive
+
